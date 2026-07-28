@@ -32,9 +32,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/rutvitech67/leetcode/tree/master/0012-integer-to-roman) |
 | [0349-intersection-of-two-arrays](https://github.com/rutvitech67/leetcode/tree/master/0349-intersection-of-two-arrays) |
 ## Sorting
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/rutvitech67/leetcode/tree/master/0349-intersection-of-two-arrays) |
+## Math
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/rutvitech67/leetcode/tree/master/0012-integer-to-roman) |
+## String
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/rutvitech67/leetcode/tree/master/0012-integer-to-roman) |
 <!---LeetCode Topics End-->
