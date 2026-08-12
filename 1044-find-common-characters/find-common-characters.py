@@ -1,5 +1,4 @@
 from collections import Counter
-
 class Solution(object):
     def commonChars(self, words):
         common = Counter(words[0])
