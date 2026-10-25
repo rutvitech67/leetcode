@@ -5,18 +5,15 @@ public:
         int left = 0;
         int right = s.size() - 1;
         while (left < right) {
-            while (left < right &&
-                   vowels.find(s[left]) == string::npos)
-            {
+            if (vowels.find(s[left]) == string::npos) {
                 left++;
+                continue;
             }
-            while (left < right &&
-                   vowels.find(s[right]) == string::npos)
-            {
+            if (vowels.find(s[right]) == string::npos) {
                 right--;
+                continue;
             }
             swap(s[left], s[right]);
-
             left++;
             right--;
         }
