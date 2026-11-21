@@ -7,9 +7,7 @@ public:
     {
         if(root == nullptr)
             return;
-
         nodes.push_back(root);
-
         preorder(root->left);
         preorder(root->right);
     }
@@ -18,11 +16,10 @@ public:
         if(root == nullptr)
         return;
         preorder(root);
-        for(int i = 0; i + 1 < nodes.size(); i++){
+        for(int i = 0; i  < nodes.size()-1; i++){
         nodes[i]->left = nullptr;
         nodes[i]->right = nodes[i + 1];
          }
-
         nodes.back()->left = nullptr;
         nodes.back()->right = nullptr;
 }
