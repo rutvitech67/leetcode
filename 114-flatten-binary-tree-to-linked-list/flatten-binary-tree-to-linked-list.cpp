@@ -17,9 +17,7 @@ public:
     void flatten(TreeNode* root) {
         if(root == nullptr)
         return;
-
         preorder(root);
-
         for(int i = 0; i + 1 < nodes.size(); i++){
         nodes[i]->left = nullptr;
         nodes[i]->right = nodes[i + 1];
